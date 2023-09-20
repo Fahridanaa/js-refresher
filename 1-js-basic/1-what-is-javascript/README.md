@@ -1,46 +1,43 @@
 # What is Javascript?
 
-- JavaScript (or "JS") is a programming language used most often for dynamic client-side scripts on webpages, but it is also often used on the server-side, using a runtime such as Node.js.
-- JavaScript was initially created to “make web pages alive”.
+- JavaScript (atau "JS") adalah bahasa pemrograman yang paling sering digunakan untuk halaman web, JS juga sering digunakan di sisi server, menggunakan runtime seperti Node.js
+- Javascript dibuat untuk “membuat halaman web menjadi hidup”.
 - JavaScript != Java
-- Modern JavaScript is a “safe” programming language.
+- JavaScript modern adalah bahasa pemrograman yang "aman".
 
-JavaScript is primarily used in the browser, enabling developers to manipulate webpage content through the DOM, manipulate data with AJAX and IndexedDB, draw graphics with canvas, interact with the device running the browser through various APIs, and more. JavaScript is one of the world's most commonly-used languages, owing to the recent growth and performance improvement of APIs available in browsers.
+JavaScript terutama yang digunakan di browser, memungkinkan anda untuk memanipulasi konten pada halaman web melalui DOM, memanipulasi data dengan AJAX dan IndexedDB, berinteraksi dengan perangkat yang menjalankan browser melalui berbagai API, dan banyak lagi.
 
 ## What can in-browser JavaScript do?
 
-In-browser JavaScript can do everything related to webpage manipulation, interaction with the user, and the webserver.
+Di dalam browser, JavaScript dapat melakukan segala sesuatu yang berkaitan dengan manipulasi halaman web, interaksi dengan pengguna, dan server web.
 
-For instance, in-browser JavaScript is able to:
+sebagai contoh:
 
-- Add new HTML to the page, change the existing content, modify styles.
-- React to user actions, run on mouse clicks, pointer movements, key presses.
-- Send requests over the network to remote servers, download and upload files (so-called AJAX and COMET technologies).
-- Get and set cookies, ask questions to the visitor, show messages.
-- Remember the data on the client-side (“local storage”).
+- Menambahkan HTML baru ke halaman, mengubah konten yang ada, atau bahkan mengubah style.
+- Dapat bereaksi terhadap tindakan pengguna,seperti klik mouse, menggerakan pointer, bahkan saat menekan tombol pada keyboard.
+- Get and set cookie, mengajukan pertanyaan kepada user, menampilkan pesan.
+- Menyimpan data dari clien side("local storage").
 
-## Languages “over” JavaScript
+Dan masih banyak hal yang dapat dilakukan JavaScript di dalam browser.
 
-The syntax of JavaScript does not suit everyone’s needs. Different people want different features.
+## Languages "over" JavaScript
 
-That’s to be expected, because projects and requirements are different for everyone.
+Sintaks pada JavaScript tidak cocok untuk semua orang karena setiap orang memiliki preferensinya masing-masing. Untuk mengatasi hal ini, banyak bahasa pemrograman baru muncul yang ditranslasikan menjadi JavaScript sebelum dijalankan di browser. bahasa-bahasa modern ini membuat proses lebih cepat dan transparan, memungkinkan Anda untuk menggunakan bahasa lain dan mengonversinya secara otomatis "di belakang layar".
 
-So, recently a plethora of new languages appeared, which are transpiled (converted) to JavaScript before they run in the browser.
+Beberapa bahasa yang ditranslasikan ke JavaScript adalah:
 
-Modern tools make the transpilation very fast and transparent, actually allowing developers to code in another language and auto-converting it “under the hood”.
-
-Examples of such languages:
-
-- [CoffeeScript](https://coffeescript.org/) is “syntactic sugar” for JavaScript. It introduces shorter syntax, allowing us to write clearer and more precise code. Usually, Ruby devs like it.
-- [TypeScript](https://www.typescriptlang.org/) is concentrated on adding “strict data typing” to simplify the development and support of complex systems. It is developed by Microsoft.
-- [Flow](https://flow.org/) also adds data typing, but in a different way. Developed by Facebook.
-- [Dart](https://dart.dev/) is a standalone language that has its own engine that runs in non-browser environments (like mobile apps), but also can be transpiled to JavaScript. Developed by Google.
-- [Brython](https://brython.info/) is a Python transpiler to JavaScript that enables the writing of applications in pure Python without JavaScript.
-- [Kotlin](https://kotlinlang.org/docs/js-overview.html) is a modern, concise and safe programming language that can target the browser or Node.
-  There are more. Of course, even if we use one of these transpiled languages, we should also know JavaScript to really understand what we’re doing.
+- [CoffeeScript](https://coffeescript.org/) adalah "gula sintaksis" untuk JavaScript. CoffeeScript memperkenalkan sintaks yang lebih pendek, memungkinkan kita untuk menulis kode yang lebih jelas dan lebih tepat. Biasanya, para pengembang Ruby menyukainya.
+- [TypeScript](https://www.typescriptlang.org/) dikonsentrasikan pada penambahan "pengetikan data yang ketat" untuk menyederhanakan pengembangan dan dukungan sistem yang kompleks. Ini dikembangkan oleh Microsoft.
+- [Flow](https://flow.org/) juga menambahkan pengetikan data, tetapi dengan cara yang berbeda. Dikembangkan oleh Facebook.
+- [Dart](https://dart.dev/) adalah bahasa mandiri yang memiliki mesin sendiri yang berjalan di lingkungan non-browser (seperti aplikasi seluler), tetapi juga dapat ditranslasikan ke JavaScript. Dikembangkan oleh Google.
+- [Brython](https://brython.info/) adalah pengalih bahasa Python ke JavaScript yang memungkinkan penulisan aplikasi dalam bahasa Python murni tanpa JavaScript.
+- [Kotlin](https://kotlinlang.org/docs/js-overview.html) adalah bahasa pemrograman modern, ringkas dan aman yang dapat menargetkan browser atau Node. Masih banyak lagi. Tentu saja, meskipun kita menggunakan salah satu dari bahasa-bahasa transpiler ini, kita juga harus mengetahui JavaScript untuk benar-benar memahami apa yang kita lakukan.
 
 ## Summary
 
-- JavaScript was initially created as a browser-only language, but it is now used in many other environments as well.
-- Today, JavaScript has a unique position as the most widely-adopted browser language, fully integrated with HTML/CSS.
-- There are many languages that get “transpiled” to JavaScript and provide certain features. It is recommended to take a look at them, at least briefly, after mastering JavaScript.
+- JavaScript pada awalnya dibuat sebagai bahasa khusus web, tetapi sekarang dapat digunakan di banyak "environment" lain.
+- Saat ini, JavaScript memiliki posisi yang unik sebagai bahasa pemrograman untuk web yang paling banyak digunakan yang terintegrasi penuh dengan HTML/CSS.
+
+> **Atwood's Law**<br>
+> Any application that can be written in JavaScript, will eventually be written in JavaScript. <br>
+> -- Jeff Atwood, 2009
