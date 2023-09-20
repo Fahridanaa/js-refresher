@@ -26,12 +26,14 @@ Sintaks pada JavaScript tidak cocok untuk semua orang karena setiap orang memili
 
 Beberapa bahasa yang ditranslasikan ke JavaScript adalah:
 
-- [CoffeeScript](https://coffeescript.org/) adalah "gula sintaksis" untuk JavaScript. CoffeeScript memperkenalkan sintaks yang lebih pendek, memungkinkan kita untuk menulis kode yang lebih jelas dan lebih tepat. Biasanya, para pengembang Ruby menyukainya.
-- [TypeScript](https://www.typescriptlang.org/) dikonsentrasikan pada penambahan "pengetikan data yang ketat" untuk menyederhanakan pengembangan dan dukungan sistem yang kompleks. Ini dikembangkan oleh Microsoft.
+- [CoffeeScript](https://coffeescript.org/) CoffeeScript memiliki sintaks yang lebih singkat dan memungkinkan kita untuk menulis kode yang lebih jelas dan lebih tepat.
+- [TypeScript](https://www.typescriptlang.org/) dikonsentrasikan pada penambahan "Strict data typing" untuk menyederhanakan pengembangan dan dukungan sistem yang kompleks. Bahasa ini dikembangkan oleh Microsoft.
 - [Flow](https://flow.org/) juga menambahkan pengetikan data, tetapi dengan cara yang berbeda. Dikembangkan oleh Facebook.
 - [Dart](https://dart.dev/) adalah bahasa mandiri yang memiliki mesin sendiri yang berjalan di lingkungan non-browser (seperti aplikasi seluler), tetapi juga dapat ditranslasikan ke JavaScript. Dikembangkan oleh Google.
 - [Brython](https://brython.info/) adalah pengalih bahasa Python ke JavaScript yang memungkinkan penulisan aplikasi dalam bahasa Python murni tanpa JavaScript.
-- [Kotlin](https://kotlinlang.org/docs/js-overview.html) adalah bahasa pemrograman modern, ringkas dan aman yang dapat menargetkan browser atau Node. Masih banyak lagi. Tentu saja, meskipun kita menggunakan salah satu dari bahasa-bahasa transpiler ini, kita juga harus mengetahui JavaScript untuk benar-benar memahami apa yang kita lakukan.
+- [Kotlin](https://kotlinlang.org/docs/js-overview.html) adalah bahasa pemrograman modern, ringkas dan aman yang dapat menargetkan browser atau Node.
+
+Dan tentu saja masih banyak lagi, meskipun kita menggunakan salah satu dari bahasa-bahasa ini, kita juga harus mengetahui JavaScript untuk benar-benar memahami apa yang kita lakukan.
 
 ## Summary
 
